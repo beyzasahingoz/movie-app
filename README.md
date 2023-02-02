@@ -1,3 +1,4 @@
 # movie-app
-ranking movies and series
-IN PROCESS
+***(IN PROCESS!)***
+- ranking movies and series
+
