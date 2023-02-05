@@ -14,18 +14,18 @@ body {
   font-size: 16px;
   width: 90vw;
   max-width: 37.5em;
-  padding: 3em 1.8em;
+  padding: 1.5em 1.8em;
   background-color: #201f28;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 53%;
   left: 50%;
   border-radius: 0.6em;
   box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
 }
 .icon-element {
-  width: 80px;
-  height: 80px;
+  width: 30px;
+  height: 30px;
 }
 .nav button {
   background-color: transparent;
@@ -43,25 +43,27 @@ body {
   color: white;
 }
 .pagination {
-  display: inline-block;
   text-align: center;
 }
 
-.pagination a {
-  color: black;
+.pagination-btn {
+  color: rgb(114, 86, 86);
   float: center;
-  padding: 8px 16px;
+  padding: 6px 12px;
   text-decoration: none;
   transition: background-color .3s;
+  border: 1px solid #913175;
+  margin: 0 1px;
 }
 
-.pagination a.active {
+.active {
   background-color: #444444;
-  color: white;
+  color: #913175;
+  border: 1px solid #000000;
 }
 
 .pagination a:hover:not(.active) {
-  background-color: #ddd;
+  background-color: #bab4b4;
 }
 
 .search-container {
@@ -71,7 +73,7 @@ body {
 }
 
 .list-container {
-  background-color: linear-gradient(to top, #000000, #913175, #000000);
+  background-color: linear-gradient(to top, #ffffff, #913175, #000000);
   padding: 1em 0.8em;
 }
 
