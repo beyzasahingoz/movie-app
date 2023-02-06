@@ -73,8 +73,32 @@ body {
 }
 
 .list-container {
-  background-color: linear-gradient(to top, #ffffff, #913175, #000000);
-  padding: 1em 0.8em;
+  font-size: 16px;
+  width: 90vw;
+  max-width: 37.5em;
+  padding: 0em 0.8em;
+  background-color: #201f28;
+  position: relative;
+  padding: 0%;
+  transform: translate(-50%, -50%);
+  top: 12em;
+  left: 50%;
+  border-radius: 0.6em;
+  box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+.watch-container {
+  font-size: 16px;
+  width: 90vw;
+  max-width: 37.5em;
+  padding: 0em 0.8em;
+  background-color: #201f28;
+  position: relative;
+  padding: 0%;
+  transform: translate(-50%, -50%);
+  top: 15em;
+  left: 50%;
+  border-radius: 0.6em;
+  box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
 }
 
 .search-container input,
@@ -126,6 +150,11 @@ li {
 
 .poster {
   width: 100%;
+}
+.rank-img {
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 100%;
 }
 
 h2 {
@@ -197,12 +226,23 @@ p {
   .container {
     font-size: 14px;
   }
-
+  .list-container {
+    font-size: 14px;
+    top:8em;
+  }
+  .watch-container {
+    font-size: 14px;
+    top:10em;
+  }
   .info {
     grid-template-columns: 1fr;
   }
-
   .poster {
+    margin: auto;
+    width: auto;
+    max-height: 10.8em;
+  }
+  .rank-img {
     margin: auto;
     width: auto;
     max-height: 10.8em;

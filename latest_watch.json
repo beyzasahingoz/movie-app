@@ -1,0 +1,13 @@
+[
+    {
+      "name": "Elvis",
+      "year": 2022,
+      "my_rate": 7.0,
+      "imdb_rate": 7.4,
+      "genre": "Musical, Drama",
+      "director_name": "Baz Luhrmann",
+      "img_link": "./img/elvis.jpg",
+      "watch_date":"31 January 2023",
+      "type":"movie"
+    }
+]

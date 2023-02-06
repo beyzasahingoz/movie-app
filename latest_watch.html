@@ -10,23 +10,21 @@
 
 <body>
     <div class="nav">
-        <ul>
-            <li><a href="movie.html"> <button id="main-btn"><img class="icon-element" src="./icon.png" alt="icon"></button></a></li>
-            <li><a href="movie_rank.html"> <button id="m-list-btn">My Movie Ranking List</button></a></li>
-            <li><a href="series_rank.html"> <button id="s-list-btn">My Series Ranking List</button></a></li>
-            <li><a href="imdb_rank.html"> <button id="i-list-btn">IMDB Ranking List</button></a></li>
-            <li><a href="latest_watch.html"> <button id="l-list-btn">Latest Watch</button></a></li>
-        </ul>
-    </div>
-    <div class="container">
-        <div class="search-container">
-            <button id="search-btn">Search</button>
-            <input type="text" placeholder="Enter movie name here..." id="movie-name" />
+        <tr>
+            <td><a href="movie.html"> <button id="main-btn"><img class="icon-element" src="./img/icon.png"
+                            alt="icon"></button></a></td>
+            <td><a href="movie_rank.html"> <button id="m-list-btn">My Movie Ranking List</button></a></td>
+            <td><a href="series_rank.html"> <button id="s-list-btn">My Series Ranking List</button></a></td>
+            <td><a href="imdb_rank.html"> <button id="i-list-btn">IMDB Ranking List</button></a></td>
+            <td><a href="latest_watch.html"> <button id="latest-list-btn">Latest Watch</button></a></td>
+        </tr>
+        <li>
+            <script src="latest_watch.js"></script>
+        </li>
+        <div class="pagination">
+            <a>&laquo;</a>
         </div>
-        <div id="result"></div>
     </div>
-    <script src="key.js"></script>
-    <script src="script.js"></script>
 </body>
-
+</html>
 </html>

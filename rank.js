@@ -1,6 +1,6 @@
 const listEl = document.querySelector('li');
 let pageNumber = 1;
-const perPage = 4;
+const perPage = 5;
 let currentData = [];
 fetch('./movies.json')
     .then(res => res.json())
@@ -17,15 +17,16 @@ function renderList(data, pageNumber, perPage) {
         listEl.insertAdjacentHTML('beforeend', `
 <div class="list-container">
 <li>
+<div class="info">
+<img src=${post.img_link} class="rank-img">
+</div>
     <div class="details">
         <h4>${post.rank} -</h4>
         <h4>${post.name}</h4>
     </div>
     <div class="rating">
     <h5>${post.director_name}</h5>
-</div>
-    <div class="rating">
-        <h5>${post.imdb_rating}</h5>
+    <h5>${post.imdb_rating}</h5>
     </div>
 
     <div class="details">
