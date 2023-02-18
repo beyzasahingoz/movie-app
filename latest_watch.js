@@ -12,7 +12,7 @@ function renderList(data, pageNumber, perPage) {
     listEl.innerHTML = '';
     const startIndex = (pageNumber - 1) * perPage;
     const endIndex = startIndex + perPage;
-    const filteredData = data.slice(startIndex, endIndex);
+    const filteredData = data.sort((a, b) => new Date(b.watch_date) - new Date(a.watch_date)).slice(startIndex, endIndex);
     filteredData.forEach(post => {
         listEl.insertAdjacentHTML('beforeend', `
 <div class="watch-container">
