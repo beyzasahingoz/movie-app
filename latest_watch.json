@@ -9,5 +9,27 @@
       "img_link": "./img/elvis.jpg",
       "watch_date":"31 January 2023",
       "type":"movie"
+    },
+    {
+      "name": "Arrival",
+      "year": 2016,
+      "my_rate": 8.0,
+      "imdb_rate": 7.9,
+      "genre": "Drama, Mystery, Sci-Fi",
+      "director_name": "Denis Villeneuve",
+      "img_link": "./img/arrival.jpg",
+      "watch_date":"4 February 2023",
+      "type":"movie"
+    },
+    {
+      "name": "The Last Of Us",
+      "year": 2023,
+      "my_rate": 9.0,
+      "imdb_rate": 9.2,
+      "genre": "Action, Adventure, Drama",
+      "director_name": "Neil Druckmann",
+      "img_link": "./img/thelastofus.jpg",
+      "watch_date":"2 February 2023-",
+      "type":"series"
     }
 ]
