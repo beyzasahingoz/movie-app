@@ -31,5 +31,82 @@
       "img_link": "./img/thelastofus.jpg",
       "watch_date":"2 February 2023-",
       "type":"series"
+    },
+    {
+      "name": "Gone Girl",
+      "year": 2014,
+      "my_rate": 6.5,
+      "imdb_rate": 8.1,
+      "genre": "Thriller, Mystery, Drama",
+      "director_name": "David Fincher",
+      "img_link": "./img/gonegirl.jpg",
+      "watch_date":"6 March 2023",
+      "type":"movie"
+    },
+    {
+      "name": "The Banshees of Inisherin",
+      "year": 2022,
+      "my_rate": 7.2,
+      "imdb_rate": 7.8,
+      "genre": "Comedy, Drama",
+      "director_name": "Martin McDonagh",
+      "img_link": "./img/thebanshees.jpg",
+      "watch_date":"4 February 2023",
+      "type":"movie"
+    },
+    {
+      "name": "Top Gun: Maverick",
+      "year": 2022,
+      "my_rate": 8.0,
+      "imdb_rate": 8.3,
+      "genre": "Action, Drama",
+      "director_name": "Joseph Kosinski",
+      "img_link": "./img/topgunmaverick.jpg",
+      "watch_date":"3 February 2023",
+      "type":"movie"
+    },
+    {
+      "name": "All Quiet on the Western Front",
+      "year": 2022,
+      "my_rate": 7.0,
+      "imdb_rate": 7.8,
+      "genre": "Action, Drama, War",
+      "director_name": "Edward Berger",
+      "img_link": "./img/allquiet.jpg",
+      "watch_date":"1 February 2023",
+      "type":"movie"
+    },
+    {
+      "name": "Triangle of Sadness",
+      "year": 2022,
+      "my_rate": 6.0,
+      "imdb_rate": 7.4,
+      "genre": "Comedy, Drama",
+      "director_name": "Ruben Östlund",
+      "img_link": "./img/triangleofsadness.jpg",
+      "watch_date":"31 January 2023",
+      "type":"movie"
+    },
+    {
+      "name": "Everything Everywhere All at Once",
+      "year": 2022,
+      "my_rate": 5.0,
+      "imdb_rate": 8.0,
+      "genre": "Comedy, Action, Adventure",
+      "director_name": "Daniel Kwan, Daniel Scheinert",
+      "img_link": "./img/everythingeverywhere.jpg",
+      "watch_date":"30 January 2023",
+      "type":"movie"
+    },
+    {
+      "name": "Avatar: The Way of Water",
+      "year": 2022,
+      "my_rate": 7.4,
+      "imdb_rate": 7.8,
+      "genre": "Fantasy, Action, Adventure",
+      "director_name": "James Cameron",
+      "img_link": "./img/avatar2.jpg",
+      "watch_date":"19 December 2022",
+      "type":"movie"
     }
 ]
