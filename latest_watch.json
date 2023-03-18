@@ -7,7 +7,7 @@
       "genre": "Musical, Drama",
       "director_name": "Baz Luhrmann",
       "img_link": "./img/elvis.jpg",
-      "watch_date":"31 January 2023",
+      "watch_date":"2023-01-31",
       "type":"movie"
     },
     {
@@ -18,7 +18,7 @@
       "genre": "Drama, Mystery, Sci-Fi",
       "director_name": "Denis Villeneuve",
       "img_link": "./img/arrival.jpg",
-      "watch_date":"4 February 2023",
+      "watch_date":"2023-02-04",
       "type":"movie"
     },
     {
@@ -29,7 +29,7 @@
       "genre": "Action, Adventure, Drama",
       "director_name": "Neil Druckmann",
       "img_link": "./img/thelastofus.jpg",
-      "watch_date":"2 February 2023-",
+      "watch_date":"2023-02-02-2023-03-13",
       "type":"series"
     },
     {
@@ -40,18 +40,18 @@
       "genre": "Thriller, Mystery, Drama",
       "director_name": "David Fincher",
       "img_link": "./img/gonegirl.jpg",
-      "watch_date":"6 March 2023",
+      "watch_date":"2023-03-06",
       "type":"movie"
     },
     {
       "name": "The Banshees of Inisherin",
       "year": 2022,
-      "my_rate": 7.2,
+      "my_rate": 7.8,
       "imdb_rate": 7.8,
       "genre": "Comedy, Drama",
       "director_name": "Martin McDonagh",
       "img_link": "./img/thebanshees.jpg",
-      "watch_date":"4 February 2023",
+      "watch_date":"2023-02-04",
       "type":"movie"
     },
     {
@@ -62,7 +62,7 @@
       "genre": "Action, Drama",
       "director_name": "Joseph Kosinski",
       "img_link": "./img/topgunmaverick.jpg",
-      "watch_date":"3 February 2023",
+      "watch_date":"2023-02-03",
       "type":"movie"
     },
     {
@@ -73,7 +73,7 @@
       "genre": "Action, Drama, War",
       "director_name": "Edward Berger",
       "img_link": "./img/allquiet.jpg",
-      "watch_date":"1 February 2023",
+      "watch_date":"2023-02-01",
       "type":"movie"
     },
     {
@@ -84,7 +84,7 @@
       "genre": "Comedy, Drama",
       "director_name": "Ruben Östlund",
       "img_link": "./img/triangleofsadness.jpg",
-      "watch_date":"31 January 2023",
+      "watch_date":"2023-01-31",
       "type":"movie"
     },
     {
@@ -95,7 +95,7 @@
       "genre": "Comedy, Action, Adventure",
       "director_name": "Daniel Kwan, Daniel Scheinert",
       "img_link": "./img/everythingeverywhere.jpg",
-      "watch_date":"30 January 2023",
+      "watch_date":"2023-01-31",
       "type":"movie"
     },
     {
@@ -106,7 +106,62 @@
       "genre": "Fantasy, Action, Adventure",
       "director_name": "James Cameron",
       "img_link": "./img/avatar2.jpg",
-      "watch_date":"19 December 2022",
+      "watch_date":"20232-12-19",
       "type":"movie"
+    },
+    {
+      "name": "Inglourious Basterds",
+      "year": 2022,
+      "my_rate": 7.1,
+      "imdb_rate": 8.3,
+      "genre": "War, Drama, Adventure",
+      "director_name": "Quentin Tarantino",
+      "img_link": "./img/inglouriousbasterds.jpg",
+      "watch_date":"2023-03-07",
+      "type":"movie"
+    },
+    {
+      "name": "The Curious Case of Benjamin Button",
+      "year": 2008,
+      "my_rate": 8.0,
+      "imdb_rate": 7.8,
+      "genre": "Fantasy, Drama, Romance",
+      "director_name": "David Fincher",
+      "img_link": "./img/benjaminbutton.jpg",
+      "watch_date":"2023-03-11",
+      "type":"movie"
+    },
+    {
+      "name": "The Great Gatsby",
+      "year": 2013,
+      "my_rate": 6.7,
+      "imdb_rate": 7.2,
+      "genre": "Drama, Romance",
+      "director_name": "Bazz Luhrmann",
+      "img_link": "./img/gatsby.jpg",
+      "watch_date":"2023-03-07",
+      "type":"movie"
+    },
+    {
+      "name": "American Psycho",
+      "year": 2000,
+      "my_rate": 7.2,
+      "imdb_rate": 7.6,
+      "genre": "Drama, Crime, Horror",
+      "director_name": "Mary Harron",
+      "img_link": "./img/americanpsycho.jpg",
+      "watch_date":"2023-03-08",
+      "type":"movie"
+    },
+    {
+      "name": "Conversations With Friends",
+      "year": 2022,
+      "my_rate": 6.7,
+      "imdb_rate": 6.7,
+      "genre": "Drama, Romance",
+      "director_name": "Lenny Abrahamson, Leanne Welham",
+      "img_link": "./img/conversationswithfriends.jpg",
+      "watch_date":"2023-03-15-",
+      "type":"series"
     }
 ]
