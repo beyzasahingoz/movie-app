@@ -18,6 +18,64 @@
             <td><a href="imdb_rank.html"> <button id="i-list-btn">IMDB Ranking List</button></a></td>
             <td><a href="latest_watch.html"> <button id="latest-list-btn">Latest Watch</button></a></td>
         </tr>
+
+        <button id="add-movie-btn">Add Movie</button>
+
+        <div id="add-movie-form" class="modal" style="display:none;">
+            <span class="close"></span>
+            <form id="add-movie-form-data">
+                <label for="movie-title">Movie Title:</label>
+                <input type="text" id="movie-title" name="movie-title" required>
+                <label for="imdb-id">IMDB ID:</label>
+                <input type="text" id="imdb-id" name="imdb-id" required>
+                <label for="director-name">Director Name:</label>
+                <input type="text" id="director-name" name="director-name" required>
+                <label for="genre">Genre:</label>
+                <input type="text" id="genre" name="genre" required>
+                <label for="imdb-rate">IMDB Rate:</label>
+                <input type="text" id="imdb-rate" name="imdb-rate" required>
+                <label for="year">Year:</label>
+                <input type="number" id="year" name="year" required>
+                <label for="poster-url">Poster URL:</label>
+                <input type="text" id="poster-url" name="poster-url" required>
+                <label for="my-rate">My Rate:</label>
+                <input type="number" id="my-rate" name="my-rate" min="1.0" max="10" step="0.1" required>
+                <label for="watch-date">Watch Date:</label>
+                <input type="date" id="watch-date" name="watch-date" required>
+                <label for="type">Type:</label>
+                <select id="type" name="type" required>
+                    <option value="">Choose a type</option>
+                    <option value="movie">Movie</option>
+                    <option value="series">Series</option>
+                </select>
+                <button type="submit" id="add-form-button">Add Movie</button>
+            </form>
+        </div>
+        <script>
+            var modal = document.getElementById("add-movie-form");
+            var btn = document.getElementById("add-movie-btn");
+            var span = document.getElementsByClassName("close")[0];
+            var form = document.getElementById("add-movie-form-data");
+
+            btn.onclick = function () {
+                modal.style.display = "block";
+                form.style.display = "block";
+                document.getElementById("add-movie-form-data").reset();
+            }
+
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            form.onsubmit = function () {
+                modal.style.display = "none";
+            }
+        </script>
         <li>
             <script src="latest_watch.js"></script>
         </li>
@@ -26,5 +84,5 @@
         </div>
     </div>
 </body>
-</html>
+
 </html>
