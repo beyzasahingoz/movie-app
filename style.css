@@ -4,9 +4,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+#main-bdy {
+  height: 100%;
+  background:linear-gradient(#000000,#000000);
+}
 body {
   height: 100%;
-  background: linear-gradient(to bottom, #000000, #913175);
+  background: linear-gradient(#000000, #913175);
 }
 
 /*@keyframes gradient-fall {
@@ -125,6 +129,20 @@ input, select{
   color: white;
 }
 #add-movie-btn:hover{
+  background-color: #201f28;
+  color: white;
+}
+#cancelbtn, #loginbtn{
+  background-color: #ece8e8;
+  color: #000000;
+  font-size: 15px;
+  
+}
+#cancelbtn:hover, #loginbtn:hover{
+  background-color: #201f28;
+  color: white;
+}
+#cancelbtn:hover, #loginbtn:hover{
   background-color: #201f28;
   color: white;
 }
