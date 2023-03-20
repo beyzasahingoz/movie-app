@@ -1,7 +1,7 @@
 # movie ranking app
 - **this project made for personel tastes.**
 
-- the project has an IMDb top 50 list in it. also, the last watched ones are saved with their watch dates and personal ratings. accidental additions can be deleted.
+- project has an IMDb top 50 list in it. also, the last watched ones are saved with their watch dates and personal ratings. accidental additions can be deleted.
 
 - movie and series rank lists are organized according to the given points.
 
