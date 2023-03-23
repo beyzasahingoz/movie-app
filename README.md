@@ -1,9 +1,10 @@
-# movie ranking app
+# movie ranking website
 - **this project made for personel tastes.**
 
 - project has an IMDb top 50 list in it. also, the last watched ones are saved with their watch dates and personal ratings. accidental additions can be deleted.
 
 - movie and series rank lists are organized according to the given points.
+- omdbapi was used for movie and series data.
 
 # the pages are as follows:
 - *main page:* to get information, the desired movie/series is searched and the basic information is displayed on the screen.
